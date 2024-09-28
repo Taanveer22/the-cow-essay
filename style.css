@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-image: url("images/cow.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+}
+
+.hero h1{
+    color: azure;
+    font-size: 100px;
+    font-weight: 900;
+    font-family: cursive;
+    text-align: center;
+    word-spacing: 30px;
+    letter-spacing: 10px;
+    padding-top: 60px;
+}

@@ -1,0 +1,11 @@
+echo "# the-cow-essay" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/Taanveer22/the-cow-essay.git
+git push -u origin master
+
+git remote add origin https://github.com/Taanveer22/the-cow-essay.git
+git branch -M master
+git push -u origin master
