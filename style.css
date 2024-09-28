@@ -1,9 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Lato", sans-serif;
 }
 
+/* hero div styles */
 .hero {
     background-image: url("images/cow.jpg");
     background-size: cover;
@@ -20,4 +25,29 @@
     word-spacing: 30px;
     letter-spacing: 10px;
     padding-top: 60px;
+}
+
+/* article div styles */
+.article{
+    width: 80%;
+    background-color: rgb(45, 168, 168);
+    margin: 60px auto;
+    border: 5px solid red;
+    padding: 60px;
+}
+
+.article h2{
+    margin-bottom: 60px;
+    border: 2px solid yellow;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 30px;
+}
+
+.article p{
+    font-size: 28px;
+    line-height: 2em;
 }
